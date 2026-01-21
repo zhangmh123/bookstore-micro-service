@@ -19,6 +19,7 @@
         <springdoc-openapi.version>2.8.14</springdoc-openapi.version>
         <spotless-maven-plugin.version>3.0.0</spotless-maven-plugin.version>
         <dockerImageName>zhangmh123/bookstore-${project.artifactId}</dockerImageName>
+        <flyway.version>11.14.1</flyway.version>
     </properties>
 
     <dependencies>
@@ -35,9 +36,15 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <!-- for springboot 3 -->
+<!--        <dependency>-->
+<!--            <groupId>org.flywaydb</groupId>-->
+<!--            <artifactId>flyway-core</artifactId>-->
+<!--        </dependency>-->
+        <!-- for springboot 4 -->
         <dependency>
-            <groupId>org.flywaydb</groupId>
-            <artifactId>flyway-core</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-flyway</artifactId>
         </dependency>
         <dependency>
             <groupId>org.flywaydb</groupId>
