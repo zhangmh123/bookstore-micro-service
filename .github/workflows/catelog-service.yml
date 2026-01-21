@@ -4,9 +4,9 @@ on:
   push:
     paths:
       - catalog-service/**
-    branches:
-      - '**'
-
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
 jobs:
   build:
     name: Build
