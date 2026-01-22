@@ -125,3 +125,4 @@ Now you can access the observability stack using the following URLs:
     * [Kubernetes Tutorials](https://www.sivalabs.in/getting-started-with-kubernetes/)
     * [Spring Security OAuth 2.0 Tutorials](https://www.sivalabs.in/spring-security-oauth2-tutorial-introduction/)
     * [A Pragmatic Approach to Software Design](https://www.sivalabs.in/tomato-architecture-pragmatic-approach-to-software-design/)
+    * https://blog.jetbrains.com/idea/2024/11/how-to-use-flyway-for-database-migrations-in-spring-boot-applications/

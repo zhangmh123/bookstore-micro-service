@@ -1,5 +1,11 @@
-### GET request to example server
-GET http://localhost:8081/api/products
+###
+### GET request to get product by code
+GET http://localhost:8081/api/products/P1001
+Accept: application/json
+
+###
+### GET request to get product by page
+GET http://localhost:8081/api/products?page=2
 Content-Type: application/json
 
 ###
