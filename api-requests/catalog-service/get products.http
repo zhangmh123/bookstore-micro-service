@@ -1,6 +1,6 @@
 ###
 ### GET request to get product by code
-GET http://localhost:8081/api/products/P1001
+GET http://localhost:8081/api/products/P100
 Accept: application/json
 
 ###
