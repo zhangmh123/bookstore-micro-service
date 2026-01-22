@@ -131,6 +131,8 @@
                 <configuration>
                     <image>
                         <name>${dockerImageName}</name>
+                        <!--for mac only -->
+                        <builder>dashaun/builder:tiny</builder>
                     </image>
                 </configuration>
                 <executions>
