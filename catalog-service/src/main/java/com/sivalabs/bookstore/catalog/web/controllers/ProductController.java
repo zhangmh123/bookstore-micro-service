@@ -4,6 +4,7 @@ import com.sivalabs.bookstore.catalog.domain.PagedResult;
 import com.sivalabs.bookstore.catalog.domain.Product;
 import com.sivalabs.bookstore.catalog.domain.ProductNotFoundException;
 import com.sivalabs.bookstore.catalog.domain.ProductService;
+import java.time.Duration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
@@ -12,8 +13,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.time.Duration;
 
 @RestController
 @RequestMapping("/api/products")
@@ -34,14 +33,14 @@ class ProductController {
     @GetMapping("/{code}")
     ResponseEntity<Product> getProductByCode(@PathVariable String code) {
         log.info("Fetching product for code: {}", code);
-        //sleep();
+        // sleep();
         return productService
                 .getProductByCode(code)
                 .map(ResponseEntity::ok)
                 .orElseThrow(() -> ProductNotFoundException.forCode(code));
     }
 
-    void sleep(){
+    void sleep() {
         try {
             Thread.sleep(Duration.ofSeconds(6));
         } catch (InterruptedException e) {

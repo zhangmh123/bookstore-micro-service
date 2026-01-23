@@ -20,7 +20,7 @@ Content-Type: application/json
     "addressLine1": "234 Main St",
     "addressLine2": "Apt 2",
     "city": "Dallas",
-    "country": "CHINA",
+    "country": "USA",
     "state": "TX",
     "zipCode": "75002"
   }
