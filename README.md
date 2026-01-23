@@ -134,3 +134,4 @@ Now you can access the observability stack using the following URLs:
     * https://wiremock.org/docs/overview/
     * https://github.com/wiremock/wiremock-testcontainers-java
     * https://testcontainers.com/guides/testing-rest-api-integrations-using-wiremock/
+    * https://github.com/lukas-krecan/ShedLock
