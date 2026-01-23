@@ -19,13 +19,6 @@ import org.springframework.test.web.servlet.MockMvc;
 @Import(ContainersConfig.class)
 @AutoConfigureMockMvc
 public abstract class AbstractIT {
-    static final String CLIENT_ID = "bookstore-webapp";
-    static final String CLIENT_SECRET = "P1sibsIrELBhmvK18BOzw1bUl96DcP2z";
-    static final String USERNAME = "siva";
-    static final String PASSWORD = "siva1234";
-
-    //    @Autowired
-    //    OAuth2ResourceServerProperties oAuth2ResourceServerProperties;
 
     @LocalServerPort
     int port;

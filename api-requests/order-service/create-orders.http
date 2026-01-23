@@ -1,0 +1,29 @@
+### GET request to example server
+POST http://localhost:8082/api/orders
+Content-Type: application/json
+
+{
+  "items": [
+    {
+      "code": "P101",
+      "name": "Product 2",
+      "price": 45.4,
+      "quantity": 1
+    }
+  ],
+  "customer": {
+    "name": "Jack",
+    "email": "jack@gmail.com",
+    "phone": "1245345435435"
+  },
+  "deliveryAddress": {
+    "addressLine1": "123 Main St",
+    "addressLine2": "Apt 1",
+    "city": "Dallas",
+    "country": "USA",
+    "state": "TX",
+    "zipCode": "75001"
+  }
+}
+
+###
