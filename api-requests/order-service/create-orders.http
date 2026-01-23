@@ -5,24 +5,24 @@ Content-Type: application/json
 {
   "items": [
     {
-      "code": "P101",
-      "name": "Product 2",
-      "price": 45.4,
+      "code": "P100",
+      "name": "Product 1",
+      "price": 34,
       "quantity": 1
     }
   ],
   "customer": {
-    "name": "Jack",
-    "email": "jack@gmail.com",
+    "name": "Hugo",
+    "email": "hugo@gmail.com",
     "phone": "1245345435435"
   },
   "deliveryAddress": {
-    "addressLine1": "123 Main St",
-    "addressLine2": "Apt 1",
+    "addressLine1": "234 Main St",
+    "addressLine2": "Apt 2",
     "city": "Dallas",
-    "country": "USA",
+    "country": "CHINA",
     "state": "TX",
-    "zipCode": "75001"
+    "zipCode": "75002"
   }
 }
 
