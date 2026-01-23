@@ -1,0 +1,9 @@
+GET http://localhost:8082/api/orders/dfa408f3-1107-41b4-b669-358aa8ca1a6a
+Accept: application/json
+
+###
+### GET request to example server
+GET http://localhost:8082/api/orders
+Content-Type: application/json
+
+###

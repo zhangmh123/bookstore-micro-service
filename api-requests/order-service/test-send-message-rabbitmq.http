@@ -1,0 +1,12 @@
+### GET request to example server
+POST http://localhost:8082/send
+Content-Type: application/json
+
+{
+  "routingKey": "delivered-orders",
+  "payload": {
+    "content": "Order delivered with id-1234"
+  }
+}
+
+###

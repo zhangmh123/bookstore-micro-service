@@ -128,3 +128,10 @@ Now you can access the observability stack using the following URLs:
     * https://blog.jetbrains.com/idea/2024/11/how-to-use-flyway-for-database-migrations-in-spring-boot-applications/
     * https://docs.spring.io/spring-boot/maven-plugin/build-image.html
     * https://github.com/docker/login-action
+    * https://docs.spring.io/spring-boot/reference/io/rest-client.html
+    * https://docs.spring.io/spring-framework/reference/integration/rest-clients.html
+    * https://resilience4j.readme.io/docs/getting-started-3
+    * https://wiremock.org/docs/overview/
+    * https://github.com/wiremock/wiremock-testcontainers-java
+    * https://testcontainers.com/guides/testing-rest-api-integrations-using-wiremock/
+    * https://github.com/lukas-krecan/ShedLock
