@@ -94,6 +94,7 @@ $ cd spring-boot-microservices-course
 * Keycloak: `http://localhost:9191` with credentials `admin/admin1234`
 * MailHog: `http://localhost:8025`
 * CircuitBreakers: http://localhost:8082/actuator/circuitbreakers
+* Swagger ui: http://localhost:8989/swagger-ui/index.html
 
 #### Option 2: Working on individual microservices
 
