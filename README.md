@@ -93,6 +93,7 @@ $ cd spring-boot-microservices-course
 * RabbitMQ: `http://localhost:15672` with credentials `guest/guest`
 * Keycloak: `http://localhost:9191` with credentials `admin/admin1234`
 * MailHog: `http://localhost:8025`
+* CircuitBreakers: http://localhost:8082/actuator/circuitbreakers
 
 #### Option 2: Working on individual microservices
 
