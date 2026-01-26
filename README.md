@@ -96,6 +96,7 @@ $ cd spring-boot-microservices-course
 * CircuitBreakers: http://localhost:8082/actuator/circuitbreakers
 * Swagger ui: http://localhost:8989/swagger-ui/index.html
 
+
 #### Option 2: Working on individual microservices
 
 Each microservice has Testcontainers based configuration to start the required services such as PostgreSQL, RabbitMQ, Keycloak, etc automatically.
@@ -137,3 +138,5 @@ Now you can access the observability stack using the following URLs:
     * https://github.com/wiremock/wiremock-testcontainers-java
     * https://testcontainers.com/guides/testing-rest-api-integrations-using-wiremock/
     * https://github.com/lukas-krecan/ShedLock
+    * https://www.webjars.org/
+    * https://alpinejs.dev/start-here
