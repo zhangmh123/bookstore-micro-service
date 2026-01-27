@@ -12,6 +12,7 @@ import static org.springframework.security.test.web.servlet.request.SecurityMock
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.sivalabs.bookstore.orders.domain.OrderService;
 import com.sivalabs.bookstore.orders.domain.SecurityService;
 import com.sivalabs.bookstore.orders.domain.models.CreateOrderRequest;
@@ -41,6 +42,9 @@ class OrderControllerUnitTests {
 
     @Autowired
     private JsonMapper jsonMapper;
+
+    @Autowired
+    private ObjectMapper objectMapper;
 
     @BeforeEach
     void setUp() {
